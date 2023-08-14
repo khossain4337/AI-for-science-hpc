@@ -1,0 +1,95 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage{hyperref}
+
+\title{Different versions that were used}
+\author{}
+
+
+\begin{document}
+\maketitle
+
+Here are some of the versions of different software that we used:
+
+\section{Conda/2022-09-08 on Polaris}
+
+This module was used in PointNet-Atlas and FFN Runs on Polaris. The versions
+of Tensorflow and PyTorch are below:
+
+\subsection{TensorFlow}
+\begin{enumerate}
+\item tensorflow                2.10.0                   
+\item tensorflow-addons         0.17.1                   
+\item tensorflow-datasets       4.6.0                    
+\item tensorflow-estimator      2.10.0                   
+\item tensorflow-io-gcs-filesystem 0.27.0               
+\item tensorflow-metadata       1.10.0                   
+\item tensorflow-probability    0.17.0
+\end{enumerate}
+
+\subsection{PyTorch}
+\begin{enumerate}
+\item torch                     1.12.0a0+git664058f          
+\item torch-geometric           2.1.0.post1              
+\item torch-scatter             2.0.9                    
+\item torch-sparse              0.6.15                   
+\item torch-tb-profiler         0.4.0                    
+\item torchinfo                 1.7.0                    
+\item torchmetrics              0.9.3                    
+\item torchvision               0.13.0a0+da3794e          
+\item torchviz                  0.0.2                    
+\end{enumerate}
+
+\section{JLSE Nodes for AMD MI250}
+It is a little not so straightforward to run on MI250 on JLSE nodes. I had to
+install things on a separate environment 
+\verb|/home/hossainm/miniconda3/envs/dist-ct-tf-amd-aux-2|.
+Here are the versions:
+
+\subsection{TensorFlow}
+
+\begin{enumerate}
+\item tensorflow-estimator      2.12.0
+\item tensorflow-io-gcs-filesystem 0.32.0
+\item tensorflow-rocm           2.12.0.560
+\end{enumerate}
+
+and these were used with another pre-built module rocm/5.5.0 and 
+openmpi/4.1.1-llvm compiler.
+
+
+\subsection{PyTorch}
+PyTorch worked out of the box with one of the pre-built modules. That was 
+\verb|conda/amd/2022-01-11|.
+
+\begin{enumerate}
+\item torch                     1.13.0+rocm5.2
+\item torchaudio                0.13.0+rocm5.2           
+\item torchvision               0.14.0+rocm5.2 
+\end{enumerate}
+
+But, these were used with another pre-built module rocm/5.5.0 and 
+openmpi/4.1.1-llvm compiler.
+
+\section{Frameworks/2023.05.15.001 on Sunspot}
+We used this framework module on Sunspot. The versions here are:
+
+\subsection{TensorFlow}
+
+\begin{enumerate}
+\item tensorflow                2.12.0
+\item tensorflow-estimator      2.12.0
+\item tensorflow-io-gcs-filesystem 0.32.0
+\end{enumerate}
+
+\subsection{PyTorch}
+
+\begin{enumerate}
+\item torch                     1.13.0a0+git6c9b55e
+\item torchvision               0.14.1a0+5e8e2f1
+\end{enumerate}
+
+
+
+
+\end{document}
