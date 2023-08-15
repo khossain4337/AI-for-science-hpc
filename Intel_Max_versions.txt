@@ -1,0 +1,257 @@
+# packages in environment at /soft/datascience/aurora_models_frameworks-2023.1:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+_openmp_mutex             5.1                       1_gnu    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+absl-py                   1.4.0                    pypi_0    pypi
+adorym                    1.0.1                    pypi_0    pypi
+antlr4-python3-runtime    4.9.3                    pypi_0    pypi
+asn1crypto                1.5.1            py39h06a4308_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+astropy                   5.2.2                    pypi_0    pypi
+asttokens                 2.2.1                    pypi_0    pypi
+astunparse                1.6.3                    pypi_0    pypi
+backcall                  0.2.0                    pypi_0    pypi
+brotlipy                  0.7.0           py39h27cfd23_1003    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+bzip2                     1.0.8                hb9a14ef_9    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+c-ares                    1.18.1               h7f8727e_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+ca-certificates           2023.01.10           h06a4308_0  
+cachetools                5.3.0                    pypi_0    pypi
+cairocffi                 1.5.1                    pypi_0    pypi
+cairosvg                  2.7.0                    pypi_0    pypi
+certifi                   2022.12.7        py39h06a4308_0  
+cffi                      1.15.1           py39h74dc2b5_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+chardet                   4.0.0           py39h06a4308_1003    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+charset-normalizer        2.0.4              pyhd3eb1b0_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+cloudpickle               2.2.1                    pypi_0    pypi
+clustershell              1.9.1                    pypi_0    pypi
+cmake                     3.19.6               h973ab73_0  
+colorama                  0.4.6                    pypi_0    pypi
+common_cmplr_lib_rt       2023.1.0            intel_46305    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+common_cmplr_lic_rt       2023.1.0            intel_46305    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+conda-package-handling    2.0.2            py39h06a4308_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+conda-package-streaming   0.7.0            py39h06a4308_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+cpuid                     0.0.11                   pypi_0    pypi
+cpuid-native              0.0.8                    pypi_0    pypi
+cryptography              39.0.1           py39h9ce1e76_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+cssselect2                0.4.1                    pypi_0    pypi
+curl                      7.88.1               h5eee18b_0  
+cycler                    0.11.0             pyhd3eb1b0_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+cython                    0.29.33          py39ha718fea_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+daal4py                   2023.1.0        py39_intel_46349    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+dal                       2023.1.0            intel_46349    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+decorator                 5.1.1                    pypi_0    pypi
+defusedxml                0.7.1                    pypi_0    pypi
+dill                      0.3.6                    pypi_0    pypi
+distro                    1.5.0              pyhd3eb1b0_1  
+docopt                    0.6.2                    pypi_0    pypi
+dpcpp-cpp-rt              2023.1.0            intel_46305    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+dpcpp-llvm-spirv          2023.0.0        py39h065f59b_25370    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+dpcpp_cpp_rt              2023.1.0            intel_46305    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+dpctl                     0.14.2           py39ha23a21d_9    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+dpnp                      0.11.1          py39h193dc20_12    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+dxchange                  0.1.8                    pypi_0    pypi
+executing                 1.2.0                    pypi_0    pypi
+expat                     2.4.9                h6a678d5_0  
+expecttest                0.1.4                    pypi_0    pypi
+flake8                    6.0.0                    pypi_0    pypi
+flatbuffers               23.3.3                   pypi_0    pypi
+fonttools                 4.39.3                   pypi_0    pypi
+fortran_rt                2023.1.0            intel_46305    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+freetype                  2.12.1               hb267b13_2    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+funcsigs                  1.0.2            py39h06a4308_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+future                    0.18.3           py39h06a4308_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+gast                      0.4.0                    pypi_0    pypi
+gdbm                      1.18                 hd4cb3f1_4  
+gettext                   0.21.0               h39681ba_1  
+git                       2.34.1          pl5262hc120c5b_0  
+git-lfs                   2.13.3               h06a4308_0  
+gitdb                     4.0.10                   pypi_0    pypi
+gitpython                 3.1.31                   pypi_0    pypi
+google-auth               2.17.3                   pypi_0    pypi
+google-auth-oauthlib      1.0.0                    pypi_0    pypi
+google-pasta              0.2.0                    pypi_0    pypi
+grpcio                    1.54.0                   pypi_0    pypi
+h5py                      3.8.0                    pypi_0    pypi
+hdf5                      1.12.1               h70be1eb_2  
+hydra-core                1.3.2                    pypi_0    pypi
+icc_rt                    2023.1.0            intel_46305    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+idna                      3.4              py39h06a4308_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+importlib-metadata        6.6.0                    pypi_0    pypi
+importlib-resources       5.12.0                   pypi_0    pypi
+intel-cmplr-lib-rt        2023.1.0            intel_46305    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+intel-cmplr-lic-rt        2023.1.0            intel_46305    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+intel-extension-for-pytorch 1.13.120+xpu             pypi_0    pypi
+intel-extension-for-tensorflow 1.2.0                    pypi_0    pypi
+intel-extension-for-tensorflow-lib 1.2.0.1                  pypi_0    pypi
+intel-fortran-rt          2023.1.0            intel_46305    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+intel-openmp              2023.1.0            intel_46305    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+intel-optimization-for-horovod 0.5.0                    pypi_0    pypi
+intelpython               2023.1.0                      1    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+ipp                       2021.8.0            intel_46345    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+ipython                   8.12.0                   pypi_0    pypi
+jax                       0.4.8                    pypi_0    pypi
+jedi                      0.18.2                   pypi_0    pypi
+joblib                    1.2.0              pyh3f38642_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+jsonpickle                3.0.1                    pypi_0    pypi
+keras                     2.12.0                   pypi_0    pypi
+keras-applications        1.0.8                    pypi_0    pypi
+keras-preprocessing       1.1.2                    pypi_0    pypi
+kiwisolver                1.4.2            py39h295c915_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+krb5                      1.19.4               h568e23c_0  
+larcv                     3.3.4                    pypi_0    pypi
+libarchive                3.6.2                hb7eea22_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+libclang                  16.0.0                   pypi_0    pypi
+libcurl                   7.88.1               h91b91d3_0  
+libedit                   3.1.20221030         h5eee18b_0  
+libev                     4.33                 h7f8727e_1  
+libevent                  2.1.12               h8f2d780_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+libffi                    3.3                  he6710b0_2    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+libgcc-ng                 11.2.0               h1234567_1    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+libgfortran-ng            11.2.0               h00389a5_1    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+libgfortran5              11.2.0               h1234567_1    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+libgomp                   11.2.0               h1234567_1    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+libllvm11                 11.0.0               h3826bc1_1    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+libnghttp2                1.46.0               hce63b2e_0  
+libpng                    1.6.39               h5eee18b_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+libprotobuf               3.20.3               he621ea3_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+libssh2                   1.10.0               h8f2d780_0  
+libstdcxx-ng              11.2.0               h1234567_1    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+libuv                     1.44.2               h5eee18b_0  
+libxml2                   2.10.3               h6b0140f_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+llvm                      11.0.0               h06a4308_1    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+llvm-spirv                11.0.0               h4616538_1    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+llvmlite                  0.39.1           py39he188f65_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+lz4-c                     1.9.4                h6a678d5_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+lzo                       2.10                 h7b6447c_2    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+make                      4.2.1                h1bed415_1  
+markdown                  3.4.3                    pypi_0    pypi
+markupsafe                2.1.2                    pypi_0    pypi
+matplotlib                3.5.3                    pypi_0    pypi
+matplotlib-inline         0.1.6                    pypi_0    pypi
+mccabe                    0.7.0                    pypi_0    pypi
+mkl                       2023.1.0            intel_46342    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+mkl-dpcpp                 2023.1.0            intel_46342    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+mkl-service               2.4.0           py39h75d02e3_15    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+mkl_fft                   1.3.5           py39ha5a625c_11    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+mkl_random                1.2.2           py39h0b06908_51    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+mkl_umath                 0.1.1           py39h450dca2_61    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+ml-dtypes                 0.1.0                    pypi_0    pypi
+mpi4py                    3.1.4            py39h618b5fa_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+multiprocess              0.70.14                  pypi_0    pypi
+munch                     2.5.0                    pypi_0    pypi
+ncurses                   6.4                  h6a678d5_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+networkx                  3.1                      pypi_0    pypi
+numba                     0.56.4           py39h7826fa9_1    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+numba-dpex                0.20.0          py39h5027c17_16    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+numexpr                   2.8.4                    pypi_0    pypi
+numpy                     1.23.4                   pypi_0    pypi
+nvidia-cublas-cu11        11.10.3.66               pypi_0    pypi
+nvidia-cuda-nvrtc-cu11    11.7.99                  pypi_0    pypi
+nvidia-cuda-runtime-cu11  11.7.99                  pypi_0    pypi
+nvidia-cudnn-cu11         8.5.0.96                 pypi_0    pypi
+oauthlib                  3.2.2                    pypi_0    pypi
+omegaconf                 2.3.0                    pypi_0    pypi
+oneccl-bind-pt            1.13.200+gpu             pypi_0    pypi
+opencl_rt                 2023.1.0            intel_46305    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+opencv-python             4.7.0.72                 pypi_0    pypi
+openssl                   1.1.1t               h7f8727e_0  
+opt-einsum                3.3.0                    pypi_0    pypi
+packaging                 22.0             py39h06a4308_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+pandas                    1.5.2            py39h385cf95_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+parso                     0.8.3                    pypi_0    pypi
+pathos                    0.3.0                    pypi_0    pypi
+patsy                     0.5.3                    pypi_0    pypi
+pcre2                     10.37                he7ceb23_1  
+perl                      5.34.0               h5eee18b_2  
+pexpect                   4.8.0                    pypi_0    pypi
+pickleshare               0.7.5                    pypi_0    pypi
+pillow                    9.5.0                    pypi_0    pypi
+pip                       23.0.1           py39h06a4308_0  
+plasma                    1.0.0                    pypi_0    pypi
+pluggy                    1.0.0            py39h06a4308_1    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+pox                       0.3.2                    pypi_0    pypi
+ppft                      1.7.6.6                  pypi_0    pypi
+prompt-toolkit            3.0.38                   pypi_0    pypi
+protobuf                  3.20.3                   pypi_0    pypi
+psutil                    5.9.5                    pypi_0    pypi
+ptyprocess                0.7.0                    pypi_0    pypi
+pure-eval                 0.2.2                    pypi_0    pypi
+py-cpuinfo                9.0.0                    pypi_0    pypi
+py4j                      0.10.9.7                 pypi_0    pypi
+pyanp                     0.3.1                    pypi_0    pypi
+pyasn1                    0.5.0                    pypi_0    pypi
+pyasn1-modules            0.3.0                    pypi_0    pypi
+pycodestyle               2.10.0                   pypi_0    pypi
+pycosat                   0.6.4            py39h5eee18b_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+pycparser                 2.21               pyhd3eb1b0_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+pyerfa                    2.0.0.3                  pypi_0    pypi
+pyflakes                  3.0.1                    pypi_0    pypi
+pygments                  2.15.1                   pypi_0    pypi
+pyopenssl                 23.0.0           py39h06a4308_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+pyparsing                 3.0.9            py39h06a4308_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+pysocks                   1.7.1            py39h06a4308_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+python                    3.9.16               h2722d68_1    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+python-dateutil           2.8.2              pyhd3eb1b0_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+python-libarchive-c       2.9                pyhd3eb1b0_1    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+pytz                      2022.7           py39h06a4308_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+pyyaml                    6.0              py39h5eee18b_1    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+rdkit-pypi                2021.9.4                 pypi_0    pypi
+readline                  8.2                  h5eee18b_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+requests                  2.28.1           py39h06a4308_1    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+requests-oauthlib         1.3.1                    pypi_0    pypi
+rhash                     1.4.1                h3c74f83_1  
+rsa                       4.9                      pypi_0    pypi
+ruamel.yaml               0.17.21          py39h5eee18b_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+ruamel.yaml.clib          0.2.6            py39h5eee18b_1    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+sacred                    0.8.4                    pypi_0    pypi
+scikit-build              0.15.0           py39h6a678d5_0  
+scikit-learn              1.2.1            py39h6a678d5_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+scikit-learn-intelex      2023.1.0        py39_intel_46349    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+scipy                     1.10.1                   pypi_0    pypi
+seaborn                   0.12.2                   pypi_0    pypi
+selfies                   1.0.4                    pypi_0    pypi
+setuptools                65.6.3           py39h06a4308_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+six                       1.16.0             pyhd3eb1b0_1    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+smmap                     5.0.0                    pypi_0    pypi
+smp                       0.1.5            py39h4ba20aa_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+snappy                    1.1.9                h295c915_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+spirv-tools               2021.4               h6bb024c_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+sqlite                    3.40.1               h5082296_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+stack-data                0.6.2                    pypi_0    pypi
+statsmodels               0.13.5                   pypi_0    pypi
+tables                    3.6.1                    pypi_0    pypi
+tbb                       2021.9.0            intel_43484    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+tbb4py                    2021.9.0        py39_intel_43484    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+tcl                       8.6.10                        2    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+tensorboard               2.12.2                   pypi_0    pypi
+tensorboard-data-server   0.7.0                    pypi_0    pypi
+tensorboard-plugin-wit    1.8.1                    pypi_0    pypi
+tensorboardx              2.6                      pypi_0    pypi
+tensorflow                2.12.0                   pypi_0    pypi
+tensorflow-estimator      2.12.0                   pypi_0    pypi
+tensorflow-io-gcs-filesystem 0.32.0                   pypi_0    pypi
+termcolor                 2.3.0                    pypi_0    pypi
+tf-estimator-nightly      2.13.0.dev2023042708          pypi_0    pypi
+threadpoolctl             2.2.0              pyh0d69192_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+tifffile                  2023.4.12                pypi_0    pypi
+tinycss2                  1.2.1                    pypi_0    pypi
+tk                        8.6.12               h1ccaba5_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+toolz                     0.12.0           py39h06a4308_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+torch                     1.13.0a0+git6c9b55e          pypi_0    pypi
+torchvision               0.14.1a0+5e8e2f1          pypi_0    pypi
+tqdm                      4.64.0           py39h06a4308_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+traitlets                 5.9.0                    pypi_0    pypi
+typing-extensions         4.5.0                    pypi_0    pypi
+urllib3                   1.26.14          py39h06a4308_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+wcwidth                   0.2.6                    pypi_0    pypi
+webencodings              0.5.1                    pypi_0    pypi
+werkzeug                  2.3.1                    pypi_0    pypi
+wheel                     0.38.4           py39h06a4308_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+wrapt                     1.14.1                   pypi_0    pypi
+xgboost                   1.7.3           0_gfed039py39_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+xz                        5.2.8                h5eee18b_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+yaml                      0.2.5                h7b6447c_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+zipp                      3.15.0                   pypi_0    pypi
+zlib                      1.2.13               h5eee18b_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+zstandard                 0.19.0           py39h5eee18b_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
+zstd                      1.4.5                h9ceee32_0    file:///soft/compilers/oneapi/2023.05.15.001/oneapi/conda_channel
