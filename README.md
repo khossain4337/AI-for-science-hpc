@@ -32,9 +32,13 @@ In practise, we have taken the advantage of pre-built modules on ALCF machines l
 
 Running the applications
 ========================
+- We have provided sample run scripts for our applications. These scripts display most of the relevant argument flags that are available from the application. 
+- To get the results, we did our runs with `mpiexec` even for `rank 1` trainings and used appropriate cpu bindings to improve the single rank throughput.
 - Specific environmental variables:
     - To run an application with `FP32` on `A100`, one must override the default `TF32` data type. The flag to do so
         - ```export NVIDIA_TF32_OVERRIDE=0```
     - To run an application with `TF32` on Intel Max GPU, one must set the following flag:
-        - `export ITEX_FP32_MATH_MODE=TF32`
+        - `export ITEX_FP32_MATH_MODE=TF32` (for TensorFlow)
+        - `export IPEX_FP32_MATH_MODE=TF32` (for PyTorch)
+        - These are Intel's TensorFlow and PyTorch extensions.
 
