@@ -1,13 +1,13 @@
 In this repository we present the supplemental material for our manuscript
 "Demonstration of Portable Performance of Scientific Machine Learning on High 
-Performance Computing Systems" submitted to SC 2023.
+Performance Computing Systems" submitted to the High Performance Python for Science at Scale (HPPSS) Workshop, which is part of the SC23 conference.
 
 Short Description
 =================
 
-In this manuscript, we present training performance metric (throughput, Images/sec)
+In this manuscript, we present training performance metrics (measured as throughput, e.g., Images/sec or samples/sec)
 for a suite of scientific AI/ML applications across three state of the art 
-hardware Nvidia A100, AMD Mi250, and Intel Data Center GPU Max 1550. 
+hardware: Nvidia A100, AMD Mi250, and Intel Data Center GPU Max 1550. 
 
 In this repository, we will provide the installation instructions (which might
 come from specific application repositories), and version details of specific
@@ -23,12 +23,16 @@ The following is the list of applications that we have studied:
 
 [Atlas-pointnet](https://github.com/jtchilders/atlas-pointnet/tree/master)
 
+[AnisoSGS](https://github.com/rickybalin/CFDML)
+
+[QCNN](https://github.com/rickybalin/CFDML)
+
 Broad installation strategy
 ===========================
 For most of our applications, we followed the strategy of ```pip``` installing the application dependencies on a ```conda``` environment. As we were looking at the GPU performances, we installed the GPU libraries (for example ```CUDA```, ```CUDA-toolkit```) through ```conda```, and ```pip``` install the frameworks (```PyTorch``` and ```TensorFlow```). The distributed training frameworks like ```Horovod```, was installed through ```pip```. In the  `versions.pdf` file at the top level of the repository has detailed information about the relevant packages.
 
 ### On machines available at ALCF
-In practise, we have taken the advantage of pre-built modules on ALCF machines like `Polaris`, `JLSE nodes` and `Sunspot`. In each of our machines, we make a virtual environmnet with `--system-site-packages` from the base `conda` module, load appropriate compiler modules and `mpi` backends, and `pip` install frameworks with other dependencies in the virtual environment.
+In practice, we have taken the advantage of pre-built modules on ALCF machines like `Polaris`, `JLSE nodes` and `Sunspot`. In each of our machines, we make a virtual environmnet with `--system-site-packages` from the base `conda` module, load appropriate compiler modules and `mpi` backends, and `pip` install frameworks with other dependencies in the virtual environment.
 
 Running the applications
 ========================
