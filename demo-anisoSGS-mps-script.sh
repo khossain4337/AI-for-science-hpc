@@ -33,11 +33,11 @@ export NVIDIA_TF32_OVERRIDE=0
 # Loop over precisions and batch sizes
 for PRECISION in "fp32"
 do
-   for BATCH in 512 2048 8192 32768
+   for BATCH in 8192
    do
       echo
       echo
-      ARGS="data_path=synthetic logging=no \
+      ARGS="data_path=synthetic logging=debug \
          mini_batch=${BATCH} epochs=200 precision=${PRECISION} \
          model=sgs sgs.neurons=80 sgs.layers=5 \
          device=cuda distributed=ddp ppn=${NRANKS_PER_NODE} ppd=${PPD}"
@@ -45,7 +45,7 @@ do
       echo
       date
       mpiexec -n ${NRANKS} -ppn ${NRANKS_PER_NODE} --cpu-bind=numa \
-            python $EXE $ARGS 2>&1 | tee sgs_${PRECISION}_${BATCH}.log
+            python $EXE $ARGS 
       date
    done
 done

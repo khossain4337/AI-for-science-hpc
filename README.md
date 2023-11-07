@@ -23,9 +23,9 @@ The following is the list of applications that we have studied:
 
 [Atlas-pointnet](https://github.com/jtchilders/atlas-pointnet/tree/master)
 
-[AnisoSGS](https://github.com/rickybalin/CFDML)
+[AnisoSGS](https://github.com/rickybalin/CFDML) commit [a52e2ab](https://github.com/rickybalin/CFDML/commit/a52e2abd24130d706eb24f566bf29f320e970b4e)
 
-[QCNN](https://github.com/rickybalin/CFDML)
+[QCNN](https://github.com/rickybalin/CFDML) commit [a52e2ab](https://github.com/rickybalin/CFDML/commit/a52e2abd24130d706eb24f566bf29f320e970b4e)
 
 Broad installation strategy
 ===========================
